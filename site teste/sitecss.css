@@ -1,0 +1,101 @@
+
+
+body{background-color: rgb(0, 217, 255)}
+
+h1{
+   white-space: nowrap;
+   padding-top: 56px;
+   color: rgb(172, 0, 0);
+   font-family: letrastinta;
+   font-size: 70px;
+   text-shadow: 2px 3px 2px black;
+  }
+
+h2{position: relative;
+   color: red;
+   font-size: 3em;
+   top: 440px;}
+
+main{
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    border-radius: 9px;
+    max-width: 1300px;
+    margin-top: 80px;
+    box-shadow: 00px 0px 3px 3px;
+  }
+
+/* imagens */
+
+img{
+    margin: auto;
+    max-width: 1000px;padding-top: 550px;
+}
+
+.thumbFix{
+  width: 1000px
+}
+/* textos */
+
+.texto1{
+  font-size: 2em;
+  text-indent: 26px;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.texto2{
+    font-size: 1em;
+    text-indent: 26px;
+    padding-top: 390px;
+  }
+
+p{position: relative;
+    top: 550px;
+    font-size: 2em;
+}
+  
+#textoK{
+  color: yellow;
+  text-shadow: 1px 1px 1px black;
+}
+
+#textoend{position: relative;
+  font-size: 1em;
+  text-indent: 10px;
+  text-align: center;
+  padding-top: 270px;
+  top: -138px;
+}
+
+@font-face {
+  font-family: letrastinta;
+  src: url(Paint\ Drops.ttf);
+}
+
+/* botão */
+
+.topo{
+  position: fixed;
+  background: brown;
+  box-shadow: 3px 3px 2px black;
+  background-repeat:no-repeat;
+  background-image: url(mão\ apontando.png);
+  background-position: -05px -05px;
+  background-size: 110%;
+  border-radius: 50%;
+  bottom: 50px;
+  right: -150px;
+  width: 130px;
+  height: 130px;
+  display:flex;
+  align-items: center ;
+  justify-content:center;
+  transition: .2s ease-in;
+}
+
+.mostrarBotao .topo{
+   right: 50px;
+   transition: .2s ease-in;
+}
+
